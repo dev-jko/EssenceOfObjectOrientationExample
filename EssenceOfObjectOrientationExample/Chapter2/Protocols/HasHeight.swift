@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  HasHeight.swift
 //  EssenceOfObjectOrientationExample
 //
 //  Created by Jaedoo Ko on 2021/01/23.
@@ -7,9 +7,6 @@
 
 import Foundation
 
-protocol Example {
-    func run()
+protocol HasHeight {
+    var height: Int { get }
 }
-
-let example: Example = Chapter2()
-example.run()

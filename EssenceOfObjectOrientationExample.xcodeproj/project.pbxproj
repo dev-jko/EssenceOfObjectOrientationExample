@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7075D71125BBE4CD003D8ED9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D71025BBE4CD003D8ED9 /* main.swift */; };
+		7075D71A25BC3F37003D8ED9 /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D71925BC3F37003D8ED9 /* Chapter2.swift */; };
+		7075D72025BC44D8003D8ED9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D71F25BC44D8003D8ED9 /* Item.swift */; };
+		7075D72325BC44EE003D8ED9 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D72225BC44EE003D8ED9 /* Beverage.swift */; };
+		7075D72625BC454B003D8ED9 /* BeverageIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D72525BC454B003D8ED9 /* BeverageIO.swift */; };
+		7075D72A25BC459E003D8ED9 /* CakeIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D72925BC459E003D8ED9 /* CakeIO.swift */; };
+		7075D72D25BC45AA003D8ED9 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D72C25BC45AA003D8ED9 /* Cake.swift */; };
+		7075D73425BC496F003D8ED9 /* FanIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D73325BC496F003D8ED9 /* FanIO.swift */; };
+		7075D73825BC4976003D8ED9 /* Fan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D73725BC4976003D8ED9 /* Fan.swift */; };
+		7075D73B25BC4B7B003D8ED9 /* Alice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D73A25BC4B7B003D8ED9 /* Alice.swift */; };
+		7075D73F25BC5438003D8ED9 /* AliceIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D73E25BC5438003D8ED9 /* AliceIO.swift */; };
+		7075D74425BC5644003D8ED9 /* HasHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74325BC5644003D8ED9 /* HasHeight.swift */; };
+		7075D74825BC56D6003D8ED9 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74725BC56D6003D8ED9 /* Door.swift */; };
+		7075D74C25BC5884003D8ED9 /* HasName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74B25BC5884003D8ED9 /* HasName.swift */; };
+		7075D75025BC5A49003D8ED9 /* DoorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74F25BC5A49003D8ED9 /* DoorIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +39,20 @@
 /* Begin PBXFileReference section */
 		7075D70D25BBE4CD003D8ED9 /* EssenceOfObjectOrientationExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssenceOfObjectOrientationExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		7075D71025BBE4CD003D8ED9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7075D71925BC3F37003D8ED9 /* Chapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2.swift; sourceTree = "<group>"; };
+		7075D71F25BC44D8003D8ED9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7075D72225BC44EE003D8ED9 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		7075D72525BC454B003D8ED9 /* BeverageIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageIO.swift; sourceTree = "<group>"; };
+		7075D72925BC459E003D8ED9 /* CakeIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeIO.swift; sourceTree = "<group>"; };
+		7075D72C25BC45AA003D8ED9 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		7075D73325BC496F003D8ED9 /* FanIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanIO.swift; sourceTree = "<group>"; };
+		7075D73725BC4976003D8ED9 /* Fan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fan.swift; sourceTree = "<group>"; };
+		7075D73A25BC4B7B003D8ED9 /* Alice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alice.swift; sourceTree = "<group>"; };
+		7075D73E25BC5438003D8ED9 /* AliceIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceIO.swift; sourceTree = "<group>"; };
+		7075D74325BC5644003D8ED9 /* HasHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasHeight.swift; sourceTree = "<group>"; };
+		7075D74725BC56D6003D8ED9 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		7075D74B25BC5884003D8ED9 /* HasName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasName.swift; sourceTree = "<group>"; };
+		7075D74F25BC5A49003D8ED9 /* DoorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +85,87 @@
 		7075D70F25BBE4CD003D8ED9 /* EssenceOfObjectOrientationExample */ = {
 			isa = PBXGroup;
 			children = (
+				7075D71825BC3F23003D8ED9 /* Chapter2 */,
 				7075D71025BBE4CD003D8ED9 /* main.swift */,
 			);
 			path = EssenceOfObjectOrientationExample;
+			sourceTree = "<group>";
+		};
+		7075D71825BC3F23003D8ED9 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				7075D71925BC3F37003D8ED9 /* Chapter2.swift */,
+				7075D74A25BC586D003D8ED9 /* Protocols */,
+				7075D74225BC5611003D8ED9 /* Door */,
+				7075D73D25BC542B003D8ED9 /* Alice */,
+				7075D71D25BC44BD003D8ED9 /* Items */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		7075D71D25BC44BD003D8ED9 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				7075D71F25BC44D8003D8ED9 /* Item.swift */,
+				7075D73225BC4963003D8ED9 /* Fan */,
+				7075D72825BC4571003D8ED9 /* Cake */,
+				7075D71E25BC44C7003D8ED9 /* Beverage */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		7075D71E25BC44C7003D8ED9 /* Beverage */ = {
+			isa = PBXGroup;
+			children = (
+				7075D72225BC44EE003D8ED9 /* Beverage.swift */,
+				7075D72525BC454B003D8ED9 /* BeverageIO.swift */,
+			);
+			path = Beverage;
+			sourceTree = "<group>";
+		};
+		7075D72825BC4571003D8ED9 /* Cake */ = {
+			isa = PBXGroup;
+			children = (
+				7075D72925BC459E003D8ED9 /* CakeIO.swift */,
+				7075D72C25BC45AA003D8ED9 /* Cake.swift */,
+			);
+			path = Cake;
+			sourceTree = "<group>";
+		};
+		7075D73225BC4963003D8ED9 /* Fan */ = {
+			isa = PBXGroup;
+			children = (
+				7075D73325BC496F003D8ED9 /* FanIO.swift */,
+				7075D73725BC4976003D8ED9 /* Fan.swift */,
+			);
+			path = Fan;
+			sourceTree = "<group>";
+		};
+		7075D73D25BC542B003D8ED9 /* Alice */ = {
+			isa = PBXGroup;
+			children = (
+				7075D73E25BC5438003D8ED9 /* AliceIO.swift */,
+				7075D73A25BC4B7B003D8ED9 /* Alice.swift */,
+			);
+			path = Alice;
+			sourceTree = "<group>";
+		};
+		7075D74225BC5611003D8ED9 /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				7075D74725BC56D6003D8ED9 /* Door.swift */,
+				7075D74F25BC5A49003D8ED9 /* DoorIO.swift */,
+			);
+			path = Door;
+			sourceTree = "<group>";
+		};
+		7075D74A25BC586D003D8ED9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7075D74325BC5644003D8ED9 /* HasHeight.swift */,
+				7075D74B25BC5884003D8ED9 /* HasName.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7075D73B25BC4B7B003D8ED9 /* Alice.swift in Sources */,
+				7075D72625BC454B003D8ED9 /* BeverageIO.swift in Sources */,
+				7075D73825BC4976003D8ED9 /* Fan.swift in Sources */,
+				7075D72A25BC459E003D8ED9 /* CakeIO.swift in Sources */,
+				7075D72D25BC45AA003D8ED9 /* Cake.swift in Sources */,
+				7075D73425BC496F003D8ED9 /* FanIO.swift in Sources */,
+				7075D75025BC5A49003D8ED9 /* DoorIO.swift in Sources */,
+				7075D73F25BC5438003D8ED9 /* AliceIO.swift in Sources */,
+				7075D71A25BC3F37003D8ED9 /* Chapter2.swift in Sources */,
+				7075D74825BC56D6003D8ED9 /* Door.swift in Sources */,
+				7075D72025BC44D8003D8ED9 /* Item.swift in Sources */,
+				7075D72325BC44EE003D8ED9 /* Beverage.swift in Sources */,
+				7075D74C25BC5884003D8ED9 /* HasName.swift in Sources */,
 				7075D71125BBE4CD003D8ED9 /* main.swift in Sources */,
+				7075D74425BC5644003D8ED9 /* HasHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
