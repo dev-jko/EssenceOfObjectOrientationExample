@@ -22,6 +22,12 @@
 		7075D74825BC56D6003D8ED9 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74725BC56D6003D8ED9 /* Door.swift */; };
 		7075D74C25BC5884003D8ED9 /* HasName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74B25BC5884003D8ED9 /* HasName.swift */; };
 		7075D75025BC5A49003D8ED9 /* DoorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075D74F25BC5A49003D8ED9 /* DoorIO.swift */; };
+		70812E7D25C64EDD00802571 /* Chapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E7C25C64EDD00802571 /* Chapter3.swift */; };
+		70812E8125C64F3C00802571 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E8025C64F3C00802571 /* Character.swift */; };
+		70812E8425C64FBD00802571 /* Trump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E8325C64FBD00802571 /* Trump.swift */; };
+		70812E8725C650A500802571 /* TrumpMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E8625C650A500802571 /* TrumpMan.swift */; };
+		70812E8E25C651E700802571 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E8D25C651E700802571 /* Rabbit.swift */; };
+		70812E9125C6528000802571 /* RabbitMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70812E9025C6528000802571 /* RabbitMan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +59,12 @@
 		7075D74725BC56D6003D8ED9 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
 		7075D74B25BC5884003D8ED9 /* HasName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasName.swift; sourceTree = "<group>"; };
 		7075D74F25BC5A49003D8ED9 /* DoorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorIO.swift; sourceTree = "<group>"; };
+		70812E7C25C64EDD00802571 /* Chapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3.swift; sourceTree = "<group>"; };
+		70812E8025C64F3C00802571 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		70812E8325C64FBD00802571 /* Trump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trump.swift; sourceTree = "<group>"; };
+		70812E8625C650A500802571 /* TrumpMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpMan.swift; sourceTree = "<group>"; };
+		70812E8D25C651E700802571 /* Rabbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
+		70812E9025C6528000802571 /* RabbitMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitMan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,7 @@
 		7075D70F25BBE4CD003D8ED9 /* EssenceOfObjectOrientationExample */ = {
 			isa = PBXGroup;
 			children = (
+				70812E7B25C64ECB00802571 /* Chapter3 */,
 				7075D71825BC3F23003D8ED9 /* Chapter2 */,
 				7075D71025BBE4CD003D8ED9 /* main.swift */,
 			);
@@ -168,6 +181,43 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		70812E7B25C64ECB00802571 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				70812E8C25C651D300802571 /* Rabbit */,
+				70812E8A25C650EE00802571 /* Trump */,
+				70812E7F25C64F0B00802571 /* Protocols */,
+				70812E7C25C64EDD00802571 /* Chapter3.swift */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		70812E7F25C64F0B00802571 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				70812E8025C64F3C00802571 /* Character.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		70812E8A25C650EE00802571 /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				70812E8325C64FBD00802571 /* Trump.swift */,
+				70812E8625C650A500802571 /* TrumpMan.swift */,
+			);
+			path = Trump;
+			sourceTree = "<group>";
+		};
+		70812E8C25C651D300802571 /* Rabbit */ = {
+			isa = PBXGroup;
+			children = (
+				70812E8D25C651E700802571 /* Rabbit.swift */,
+				70812E9025C6528000802571 /* RabbitMan.swift */,
+			);
+			path = Rabbit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,17 +278,23 @@
 				7075D73B25BC4B7B003D8ED9 /* Alice.swift in Sources */,
 				7075D72625BC454B003D8ED9 /* BeverageIO.swift in Sources */,
 				7075D73825BC4976003D8ED9 /* Fan.swift in Sources */,
+				70812E7D25C64EDD00802571 /* Chapter3.swift in Sources */,
+				70812E8725C650A500802571 /* TrumpMan.swift in Sources */,
 				7075D72A25BC459E003D8ED9 /* CakeIO.swift in Sources */,
 				7075D72D25BC45AA003D8ED9 /* Cake.swift in Sources */,
+				70812E8E25C651E700802571 /* Rabbit.swift in Sources */,
+				70812E8425C64FBD00802571 /* Trump.swift in Sources */,
 				7075D73425BC496F003D8ED9 /* FanIO.swift in Sources */,
 				7075D75025BC5A49003D8ED9 /* DoorIO.swift in Sources */,
 				7075D73F25BC5438003D8ED9 /* AliceIO.swift in Sources */,
 				7075D71A25BC3F37003D8ED9 /* Chapter2.swift in Sources */,
 				7075D74825BC56D6003D8ED9 /* Door.swift in Sources */,
+				70812E9125C6528000802571 /* RabbitMan.swift in Sources */,
 				7075D72025BC44D8003D8ED9 /* Item.swift in Sources */,
 				7075D72325BC44EE003D8ED9 /* Beverage.swift in Sources */,
 				7075D74C25BC5884003D8ED9 /* HasName.swift in Sources */,
 				7075D71125BBE4CD003D8ED9 /* main.swift in Sources */,
+				70812E8125C64F3C00802571 /* Character.swift in Sources */,
 				7075D74425BC5644003D8ED9 /* HasHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

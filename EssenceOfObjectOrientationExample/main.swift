@@ -11,5 +11,5 @@ protocol Example {
     func run()
 }
 
-let example: Example = Chapter2()
+let example: Example = Chapter3()
 example.run()
